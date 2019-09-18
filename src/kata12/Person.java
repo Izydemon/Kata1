@@ -5,7 +5,7 @@ import java.util.Date;
 public class Person {
     public String name;
     public Date birthday;
-    private int MS_PER_SECOND = 60;
+    private int MS_PER_SECOND = 1000;
     private int SECONDS_PER_MINUTE = 60;
     private int MINUTES_PER_HOUR = 60;
     private int HOURS_PER_DAY = 24;
